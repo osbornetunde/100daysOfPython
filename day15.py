@@ -7,23 +7,19 @@
 
 
 
-
-
-
-# a = int(input("Enter an integer value: "))
-# aa = a * 2
-# aaa = a * 3
-# aaaa = a * 4 
-# sum = a + int(aa) + int(aaa) + int(aaaa)
-# print("sum: ", sum)
-
-
 # solution
 
-a = input()
-n1 = int("%s" % a)
-n2 = int("%s%s" %(a,a))
-n3 = int("%s%s%s" %(a,a,a))
-n4 = int("%s%s%s%s" %(a,a,a,a))
+# a = input()
+# n1 = int("%s" % a)
+# n2 = int("%s%s" %(a,a))
+# n3 = int("%s%s%s" %(a,a,a))
+# n4 = int("%s%s%s%s" %(a,a,a,a))
+# print(n1+n2+n3+n4)
+
+a = input("Enter an integer value: ")
+n1 = int("{}".format(a))
+n2 = int("{}{}".format(a,a))
+n3 = int("{}{}{}".format(a,a,a))
+n4 = int("{}{}{}{}".format(a,a,a,a))
 
 print(n1+n2+n3+n4)
